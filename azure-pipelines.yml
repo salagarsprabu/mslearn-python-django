@@ -8,7 +8,7 @@ trigger:
 
 variables:
   # Azure Resource Manager connection created during pipeline creation
-  azureServiceConnectionId: '90de0c98-2d25-4094-a834-32b29fdf8003'
+  azureServiceConnectionId: 'svc1'
 
   # Web app name
   webAppName: 'python-cicd-13540'
