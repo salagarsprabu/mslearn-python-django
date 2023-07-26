@@ -96,7 +96,7 @@ stages:
             displayName: 'Use Python version'
 
           - task: AzureWebApp@1
-            displayName: 'Deploy Azure Web App : python-cicd-16353'
+            displayName: 'Deploy Azure Web App : python-cicd-13540'
             inputs:
               azureSubscription: $(azureServiceConnectionId)
               appType: webAppLinux
