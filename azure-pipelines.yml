@@ -11,19 +11,19 @@ variables:
   azureServiceConnectionId: '90de0c98-2d25-4094-a834-32b29fdf8003'
 
   # Web app name
-  webAppName: 'python-cicd-15042'
+  webAppName: 'python-cicd-13540'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
   # Environment name
-  environmentName: 'python-cicd-15042'
+  environmentName: 'python-cicd-13540'
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)/Application
 
-  # Python version: 3.7
-  pythonVersion: '3.7'
+  # Python version: 3.9
+  pythonVersion: '3.9'
 
 stages:
 - stage: Build
